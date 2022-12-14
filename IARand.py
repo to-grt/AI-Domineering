@@ -13,3 +13,6 @@ class IARand:
     def choose_move(self, board):
         index_move = np.random.randint(0,board[-1]-1)
         return board[index_move]
+
+    def test(self):
+        pass
